@@ -1,0 +1,115 @@
+body {
+	background-color: #f9c32b;
+	padding: 0;
+	margin: 0;
+}
+
+.cls-container {
+	background-color: #f9c32b;
+}
+
+.cls-container-img {	
+	heigh: 270px;
+}
+
+.cls-desc {
+	background-color: #00357b;	
+	text-align: center;
+	padding: 30px 0 0 0;
+	height: 265px;
+}
+
+.cls-desc p{
+	color : #f9c32b;
+	font-size: 24px;
+	line-height: 120%;
+}
+
+.title-desc{
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 180%
+}
+
+.img-logo {
+	margin-top: 10px;
+}
+
+
+
+.cls-imgs-1 {
+	margin-top : 15px;
+}
+
+
+
+
+.cls-footer {
+	height: 204px;
+	background-color: #00357b;	
+	text-align: center;
+	padding: 25px 0 0 0;
+}
+
+.cls-footer p {
+	color : #f9c32b;
+	font-size: 50px;
+	line-height: 100%;
+}
+
+
+@media (min-width: 1200px) {
+	.cls-container-content {
+		height: 1438px;	
+		background: url(/images/fondo.png) repeat fixed; 
+	}
+
+	.cls-img-vendedor {
+		margin-top : 67px;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.cls-container-content {
+		height: 1438px;
+		background: url(/images/fondo.png) repeat; 
+	}
+
+	.cls-img-vendedor {
+		margin-top : 67px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.cls-container-content {
+		background: url(/images/fondo.png) repeat; 
+	}
+
+	.cls-img-vendedor {
+		margin-top : 45px;
+	}	
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.cls-container-content {
+		background: url(/images/fondo.png) repeat fixed; 
+	}
+
+	.cls-img-vendedor {
+		margin-top : 45px;
+	}	
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.cls-container-content {
+		background: url(/images/fondo.png) repeat fixed; 
+	}
+
+	.cls-img-vendedor {
+		margin-top : 45px;
+	}	
+}
